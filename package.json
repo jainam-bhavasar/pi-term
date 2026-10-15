@@ -1,0 +1,41 @@
+{
+  "name": "pi-term",
+  "version": "0.1.0",
+  "description": "Background terminals for pi: let the agent start, read and type into long-running programs (dev servers, flutter run, REPLs, log tails) in named tmux sessions.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Jainam Bhavasar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jainam-bhavasar/pi-term.git"
+  },
+  "homepage": "https://github.com/jainam-bhavasar/pi-term#readme",
+  "bugs": "https://github.com/jainam-bhavasar/pi-term/issues",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "tmux",
+    "terminal",
+    "dev-server",
+    "coding-agent"
+  ],
+  "files": [
+    "extensions",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  }
+}
