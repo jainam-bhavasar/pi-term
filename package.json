@@ -1,6 +1,6 @@
 {
   "name": "pi-term",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Background terminals for pi: let the agent start, read and type into long-running programs (dev servers, flutter run, REPLs, log tails) in named tmux sessions.",
   "type": "module",
   "license": "MIT",
@@ -26,6 +26,7 @@
     "LICENSE"
   ],
   "pi": {
+    "image": "https://raw.githubusercontent.com/jainam-bhavasar/pi-term/main/docs/demo.gif",
     "extensions": [
       "./extensions/index.ts"
     ],

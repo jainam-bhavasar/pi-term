@@ -2,6 +2,8 @@
 
 Background terminals for [pi](https://pi.dev).
 
+![pi-term demo](https://raw.githubusercontent.com/jainam-bhavasar/pi-term/main/docs/demo.gif)
+
 `bash` tool calls end when the command ends. That breaks for anything that has to keep running: dev servers, `flutter run`, REPLs, watchers, log tails. pi-term gives the agent named tmux sessions it can start, read and type into, without blocking the conversation.
 
 ```bash
